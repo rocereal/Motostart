@@ -1352,7 +1352,7 @@ header.main-header .header-sticky.active{
     left: 0;
     font-size: 18px;
     font-weight: 900;
-    color: var(--accent-color);
+    color: #ffffff;
 }
 
 .best-product-options{
