@@ -4481,8 +4481,8 @@ header.main-header .header-sticky.active{
 
 /* Hamburger: black bg + white lines on dark header */
 .main-header.dark-header-bg .slicknav_btn{
-	background: #111111;
-	border: 1px solid rgba(255,255,255,0.25);
+	background: transparent;
+	border: none;
 }
 .main-header.dark-header-bg .slicknav_btn .slicknav_icon-bar{
 	background-color: var(--white-color);
