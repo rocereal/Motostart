@@ -4069,7 +4069,8 @@ header.main-header .header-sticky.active{
 	}
 
 	.hero{
-		padding-bottom: 40px;
+		bottom: 12%;
+		padding: 0;
 	}
 
 	.hero-body-item{
@@ -4605,17 +4606,17 @@ header.main-header .header-sticky.active{
 /* Hero overlaid on banner */
 .hero{
 	position: absolute;
-	bottom: 0;
+	bottom: 18%;
 	left: 0;
 	right: 0;
 	background: transparent;
-	padding: 0 0 60px;
+	padding: 0;
 }
 .hero::before{
 	content: '';
 	position: absolute;
 	inset: 0;
-	background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, transparent 100%);
+	background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.3) 60%, transparent 100%);
 	pointer-events: none;
 }
 .hero .hero-body{
