@@ -1134,7 +1134,7 @@ header.main-header .header-sticky.active{
 
 .product-image a{
 	display: block;
-	padding: 20px 0;
+	padding: 0;
 }
 
 .product-image figure{
