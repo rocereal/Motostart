@@ -1105,12 +1105,14 @@ header.main-header .header-sticky.active{
 .section-footer-text p a{
 	font-weight: 600;
 	text-decoration: underline;
-	color: #ffffff;
+	color: #111111;
 	transition: all 0.3s ease-in-out;
 }
 
-.about-us .section-footer-text p a{
-	color: #111111;
+.best-sellers .section-footer-text p a,
+.our-fact .section-footer-text p a,
+.our-faqs .section-footer-text p a{
+	color: #ffffff;
 }
 
 .section-footer-text p a:hover{
@@ -4726,8 +4728,5 @@ header.main-header .header-sticky.active{
 	max-height: none;
 	display: block;
 	object-fit: cover;
-}
-.our-products .section-footer-text p a{
-	color: #111111 !important;
 }
 
