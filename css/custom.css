@@ -3463,10 +3463,6 @@ header.main-header .header-sticky.active{
 		margin-top: 15px;
 	}
 
-	.hero{
-		padding: 160px 0 0;
-	}
-
 	.hero.hero-video{
 		padding: 170px 0 80px;
 	}
@@ -4535,12 +4531,17 @@ header.main-header .header-sticky.active{
 
 /* Standalone hero image below hero text section */
 .hero-image-standalone{
-	background: #111111;
-	padding: 0 0 60px;
+	background: #ffffff;
+	padding: 60px 0;
 	text-align: center;
 }
 .hero-image-standalone .hero-image{
 	margin-top: 0;
+}
+.hero-image-standalone .hero-image img{
+	max-width: 100%;
+	width: 100%;
+	object-fit: contain;
 }
 
 /* White text in dark-background sections */
