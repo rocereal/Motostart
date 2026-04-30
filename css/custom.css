@@ -3597,7 +3597,7 @@ header.main-header .header-sticky.active{
 
 	.best-product-image.featured-product img{
 		max-width: 400px;
-		aspect-ratio: 1 / 0.95;
+		aspect-ratio: 3 / 2;
 	}
 
 	.best-selling-product-slider-item{
@@ -4147,7 +4147,8 @@ header.main-header .header-sticky.active{
     }
 
 	.best-product-image.featured-product img{
-        max-width: 280px;
+        max-width: 100%;
+        aspect-ratio: 3 / 2;
     }
 
 	.best-selling-product-slider-item .best-product-image{
@@ -4679,6 +4680,12 @@ header.main-header .header-sticky.active{
 .our-fact .btn-default:hover,
 .our-faqs .btn-default:hover{
 	color: #111111;
+}
+
+/* Featured product image — match 3:2 ratio of color-option PNGs */
+.best-product-image.featured-product img{
+	aspect-ratio: 3 / 2;
+	object-fit: contain;
 }
 
 /* Contact info cards (dark bg, need white text) */
