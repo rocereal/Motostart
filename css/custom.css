@@ -4065,11 +4065,11 @@ header.main-header .header-sticky.active{
 	}
 
 	.banner-hero-section .home-banner img{
-		object-position: 30% center;
+		object-position: 38% center;
 	}
 
 	.hero{
-		bottom: 12%;
+		bottom: 20%;
 		padding: 0;
 	}
 
@@ -4603,21 +4603,25 @@ header.main-header .header-sticky.active{
 	object-fit: cover;
 }
 
+/* Gradient pe wrapper, lipit de baza imaginii */
+.banner-hero-section::after{
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.25) 55%, transparent 100%);
+	pointer-events: none;
+	z-index: 1;
+}
+
 /* Hero overlaid on banner */
 .hero{
 	position: absolute;
-	bottom: 18%;
+	bottom: 28%;
 	left: 0;
 	right: 0;
 	background: transparent;
 	padding: 0;
-}
-.hero::before{
-	content: '';
-	position: absolute;
-	inset: 0;
-	background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.3) 60%, transparent 100%);
-	pointer-events: none;
+	z-index: 2;
 }
 .hero .hero-body{
 	justify-content: center;
