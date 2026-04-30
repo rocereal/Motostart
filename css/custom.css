@@ -1109,6 +1109,11 @@ header.main-header .header-sticky.active{
 	transition: all 0.3s ease-in-out;
 }
 
+.about-us .section-footer-text p a,
+.our-products .section-footer-text p a{
+	color: #111111;
+}
+
 .section-footer-text p a:hover{
 	color: var(--accent-color);
 }
