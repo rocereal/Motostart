@@ -4069,7 +4069,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.hero{
-		bottom: 20%;
+		bottom: 36%;
 		padding: 0;
 	}
 
@@ -4616,7 +4616,7 @@ header.main-header .header-sticky.active{
 /* Hero overlaid on banner */
 .hero{
 	position: absolute;
-	bottom: 28%;
+	bottom: 32%;
 	left: 0;
 	right: 0;
 	background: transparent;
