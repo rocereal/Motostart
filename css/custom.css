@@ -4615,8 +4615,8 @@ header.main-header .header-sticky.active{
 }
 .home-banner img{
 	width: 100%;
-	height: auto;
+	height: 100vh;
+	max-height: none;
 	display: block;
-	max-height: 500px;
 	object-fit: cover;
 }
