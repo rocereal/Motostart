@@ -4475,6 +4475,27 @@ header.main-header .header-sticky.active{
 /***   Dark Theme Overrides       ***/
 /************************************/
 
+/* Header height ~64px (matches nieve.com.tr) */
+.navbar{
+	padding: 20px 0;
+}
+
+/* Header CTA button — white border, square corners, black bg, white text */
+.main-header.dark-header-bg .header-contact-btn .btn-default{
+	background: transparent;
+	color: #ffffff;
+	border: 1.5px solid #ffffff;
+	border-radius: 0;
+}
+.main-header.dark-header-bg .header-contact-btn .btn-default:hover{
+	background: #ffffff;
+	color: #111111;
+}
+.main-header.dark-header-bg .header-contact-btn .btn-default::before,
+.main-header.dark-header-bg .header-contact-btn .btn-default::after{
+	background: #ffffff;
+}
+
 /* Hamburger: black bg + white lines on dark header */
 .main-header.dark-header-bg .slicknav_btn{
 	background: transparent;
