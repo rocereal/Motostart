@@ -1,4 +1,4 @@
-/* ----------------------------------------------------------------------------------------
+﻿/* ----------------------------------------------------------------------------------------
 * Author        : Awaiken
 * Template Name : Sellsmart - Single Product Landing page HTML Template
 * File          : CSS File
@@ -4518,7 +4518,7 @@ header.main-header .header-sticky.active{
 	padding: 9px 18px;
 }
 
-/* Header CTA button — white border, square corners, black bg, white text */
+/* Header CTA button â€” white border, square corners, black bg, white text */
 .main-header.dark-header-bg .header-contact-btn .btn-default{
 	background: transparent;
 	color: #ffffff;
@@ -4543,7 +4543,7 @@ header.main-header .header-sticky.active{
 	background-color: var(--white-color);
 }
 
-/* Always-dark header — in normal flow, not overlapping content */
+/* Always-dark header â€” in normal flow, not overlapping content */
 header.main-header{
 	position: relative;
 	top: auto;
@@ -4557,7 +4557,7 @@ header.main-header .header-sticky.active{
 	box-shadow: 0 2px 24px rgba(0,0,0,0.55);
 }
 
-/* Home banner — full viewport height */
+/* Home banner â€” full viewport height */
 .home-banner img{
 	height: 100vh;
 	max-height: none;
@@ -4696,7 +4696,7 @@ header.main-header .header-sticky.active{
 	color: #111111;
 }
 
-/* Featured product image — match 3:2 ratio of color-option PNGs */
+/* Featured product image â€” match 3:2 ratio of color-option PNGs */
 .best-product-image.featured-product img{
 	aspect-ratio: 3 / 2;
 	object-fit: contain;
@@ -4728,5 +4728,6 @@ header.main-header .header-sticky.active{
 	object-fit: cover;
 }
 .our-products .section-footer-text p a{
-	color: #111111;
+	color: #111111 !important;
 }
+
