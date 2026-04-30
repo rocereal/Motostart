@@ -4502,10 +4502,45 @@ header.main-header .header-sticky.active{
 	box-shadow: 0 2px 24px rgba(0,0,0,0.55);
 }
 
-/* Home banner fills remaining viewport below header */
+/* Home banner — full viewport height */
 .home-banner img{
-	height: calc(100vh - 83px);
+	height: 100vh;
 	max-height: none;
+}
+
+/* White button */
+.btn-default.btn-white{
+	background: #ffffff;
+	color: #111111;
+}
+.btn-default.btn-white:hover{
+	color: #111111;
+}
+.btn-default.btn-white::before,
+.btn-default.btn-white::after{
+	background: #e0e0e0;
+}
+
+/* Font Awesome icon inside hero icon-box */
+.hero-body-item .icon-box i{
+	color: var(--white-color);
+	font-size: 20px;
+	position: relative;
+	z-index: 1;
+	transition: all 0.3s ease-in-out;
+}
+.hero-body-item:hover .icon-box i{
+	color: var(--primary-color);
+}
+
+/* Standalone hero image below hero text section */
+.hero-image-standalone{
+	background: #111111;
+	padding: 0 0 60px;
+	text-align: center;
+}
+.hero-image-standalone .hero-image{
+	margin-top: 0;
 }
 
 /* White text in dark-background sections */
