@@ -215,18 +215,19 @@ body{
 	font-weight: 600;
 	line-height: 1em;
 	text-transform: capitalize;
-	background: var(--accent-color);
-	color: var(--white-color);
+	background: #ffffff;
+	color: #111111;
 	border-radius: 100px;
 	padding: 17px 24px;
 	border: none;
+	text-align: center;
 	overflow: hidden;
 	transition: all 0.6s ease-in-out;
 	z-index: 1;
 }
 
 .btn-default:hover{
-	color: var(--primary-color);
+	color: #ffffff;
 	background: transparent;
 }
 
@@ -1395,7 +1396,7 @@ header.main-header .header-sticky.active{
 .product-model-list ul li{
 	font-size: 14px;
 	font-weight: 600;
-	color: var(--primary-color);
+	color: #ffffff;
 	border: 1px dashed var(--divider-color);
 	border-radius: 10px;
 	padding: 12px 15px;
@@ -1651,6 +1652,7 @@ header.main-header .header-sticky.active{
 .fact-item .icon-box img{
 	width: 100%;
 	max-width: 40px;
+	filter: invert(1) brightness(2);
 }
 
 .fact-item-content{
