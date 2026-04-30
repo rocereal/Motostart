@@ -1109,8 +1109,7 @@ header.main-header .header-sticky.active{
 	transition: all 0.3s ease-in-out;
 }
 
-.about-us .section-footer-text p a,
-.our-products .section-footer-text p a{
+.about-us .section-footer-text p a{
 	color: #111111;
 }
 
@@ -4727,4 +4726,7 @@ header.main-header .header-sticky.active{
 	max-height: none;
 	display: block;
 	object-fit: cover;
+}
+.our-products .section-footer-text p a{
+	color: #111111;
 }
