@@ -4480,6 +4480,16 @@ header.main-header .header-sticky.active{
 	padding: 6px 0;
 }
 
+/* Smaller nav links and CTA button for compact header */
+.main-menu ul li a{
+	font-size: 12px !important;
+	padding: 8px 10px !important;
+}
+.main-header .header-contact-btn .btn-default{
+	font-size: 11px;
+	padding: 7px 14px;
+}
+
 /* Header CTA button — white border, square corners, black bg, white text */
 .main-header.dark-header-bg .header-contact-btn .btn-default{
 	background: transparent;
