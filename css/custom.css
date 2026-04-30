@@ -4475,9 +4475,9 @@ header.main-header .header-sticky.active{
 /***   Dark Theme Overrides       ***/
 /************************************/
 
-/* Header height ~64px (matches nieve.com.tr) */
+/* Header height ~35px */
 .navbar{
-	padding: 20px 0;
+	padding: 6px 0;
 }
 
 /* Header CTA button — white border, square corners, black bg, white text */
