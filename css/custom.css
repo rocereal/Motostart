@@ -40,7 +40,7 @@
 
 :root{
 	--primary-color				: #000000;
-	--secondary-color			: #D6E3E1;
+	--secondary-color			: #111111;
 	--text-color				: #2C2C2C;
 	--accent-color				: #000000;
 	--bg-color					: #F7F7F7;
@@ -671,7 +671,7 @@ header.main-header .header-sticky.active{
 .slicknav_nav a:focus,
 .slicknav_nav .slicknav_row:hover{
 	background-color: transparent;
-	color: var(--secondary-color);
+	color: var(--white-color);
 }
 
 .slicknav_menu ul ul li a{
@@ -698,7 +698,7 @@ header.main-header .header-sticky.active{
 
 .slicknav_open > a .slicknav_arrow:after{
     transform: translateY(-50%) rotate(-180deg);
-	color: var(--secondary-color);
+	color: var(--white-color);
 }
 
 /************************************/
@@ -2120,7 +2120,7 @@ header.main-header .header-sticky.active{
 }
 
 .footer-links ul li a:hover{
-	color: var(--secondary-color);
+	color: var(--white-color);
 }
 
 .footer-links.footer-contact-info{
@@ -4465,4 +4465,99 @@ header.main-header .header-sticky.active{
 	.contact-us-form{
 		padding: 30px 20px;
 	}
+
+	.navbar-brand img{
+		max-width: 150px;
+	}
+}
+
+/************************************/
+/***   Dark Theme Overrides       ***/
+/************************************/
+
+/* Always-dark header */
+header.main-header{
+	background: #111111;
+	border-bottom-color: rgba(255,255,255,0.1);
+}
+
+header.main-header .header-sticky.active{
+	border-bottom-color: rgba(255,255,255,0.1);
+}
+
+/* White text in dark-background sections */
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6,
+.our-products h1, .our-products h2, .our-products h3, .our-products h4,
+.best-sellers h1, .best-sellers h2, .best-sellers h3, .best-sellers h4,
+.our-fact h1, .our-fact h2, .our-fact h3, .our-fact h4,
+.our-faqs h1, .our-faqs h2, .our-faqs h3, .our-faqs h4{
+	color: #ffffff;
+}
+
+.hero p, .hero li, .hero span,
+.our-products p, .our-products li, .our-products span,
+.best-sellers p, .best-sellers li, .best-sellers span,
+.our-fact p, .our-fact li, .our-fact span,
+.our-faqs p, .our-faqs li, .our-faqs span{
+	color: rgba(255,255,255,0.8);
+}
+
+/* FAQ accordion on dark background */
+.our-faqs .faq-accordion .accordion-item{
+	border-color: rgba(255,255,255,0.15);
+}
+.our-faqs .faq-accordion .accordion-header .accordion-button,
+.our-faqs .faq-accordion .accordion-header .accordion-button.collapsed{
+	color: #ffffff;
+	background: transparent;
+}
+.our-faqs .faq-accordion .accordion-item .accordion-button::after,
+.our-faqs .faq-accordion .accordion-item .accordion-button.collapsed::after{
+	color: #ffffff;
+}
+.our-faqs .faq-accordion .accordion-item .accordion-body{
+	border-top-color: rgba(255,255,255,0.15);
+}
+
+/* Button hover fill in dark sections */
+.hero .btn-default::before, .hero .btn-default::after,
+.our-products .btn-default::before, .our-products .btn-default::after,
+.best-sellers .btn-default::before, .best-sellers .btn-default::after,
+.our-fact .btn-default::before, .our-fact .btn-default::after,
+.our-faqs .btn-default::before, .our-faqs .btn-default::after{
+	background: #ffffff;
+}
+
+.hero .btn-default:hover,
+.our-products .btn-default:hover,
+.best-sellers .btn-default:hover,
+.our-fact .btn-default:hover,
+.our-faqs .btn-default:hover{
+	color: #111111;
+}
+
+/* Contact info cards (dark bg, need white text) */
+.contact-info-item .contact-info-item-title h3,
+.contact-info-item .contact-info-item-content p,
+.contact-info-item .contact-info-item-content p a{
+	color: rgba(255,255,255,0.85);
+}
+.contact-info-item .contact-info-item-content p a:hover{
+	color: #ffffff;
+}
+.contact-info-item-header .icon-box img{
+	filter: invert(1);
+}
+
+/* Home banner */
+.home-banner{
+	width: 100%;
+	line-height: 0;
+}
+.home-banner img{
+	width: 100%;
+	height: auto;
+	display: block;
+	max-height: 500px;
+	object-fit: cover;
 }
