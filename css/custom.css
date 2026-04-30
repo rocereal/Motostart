@@ -1297,7 +1297,7 @@ header.main-header .header-sticky.active{
 }
 
 .best-product-image.featured-product{
-	padding: 60px;
+	padding: 20px;
 }
 
 .best-product-image figure{
@@ -1307,7 +1307,7 @@ header.main-header .header-sticky.active{
 .best-product-image img{
 	width: 100%;
 	aspect-ratio: 1 / 1.09;
-	object-fit: cover;
+	object-fit: contain;
 }
 
 .best-selling-product-slider-item{
@@ -1815,7 +1815,7 @@ header.main-header .header-sticky.active{
 
 .intro-video-box img{
 	width: 100%;
-	height: 750px;
+	height: 420px;
 	object-fit: cover;
 	display: block;
 }
@@ -3713,7 +3713,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.intro-video-box img{
-		height: 500px;
+		height: 300px;
 	}
 
 	.our-partners{
