@@ -4475,19 +4475,19 @@ header.main-header .header-sticky.active{
 /***   Dark Theme Overrides       ***/
 /************************************/
 
-/* Header height ~35px */
+/* Header height ~50px */
 .navbar{
-	padding: 6px 0;
+	padding: 13px 0;
 }
 
-/* Smaller nav links and CTA button for compact header */
+/* Compact nav links and CTA button */
 .main-menu ul li a{
-	font-size: 12px !important;
-	padding: 8px 10px !important;
+	font-size: 14px !important;
+	padding: 10px 12px !important;
 }
 .main-header .header-contact-btn .btn-default{
-	font-size: 11px;
-	padding: 7px 14px;
+	font-size: 13px;
+	padding: 9px 18px;
 }
 
 /* Header CTA button — white border, square corners, black bg, white text */
