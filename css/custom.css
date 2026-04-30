@@ -4060,6 +4060,10 @@ header.main-header .header-sticky.active{
         margin-top: 10px;
 	}
 
+	.hero{
+		padding-bottom: 70px;
+	}
+
 	.hero-body-item{
 		width: 100%;
 	}
@@ -4573,6 +4577,17 @@ header.main-header .header-sticky.active{
 	max-width: 100%;
 	width: 100%;
 	object-fit: contain;
+}
+
+/* Hero section padding & layout improvements */
+.hero{
+	padding: 80px 0 90px;
+}
+.hero .hero-body{
+	justify-content: center;
+	gap: 20px 60px;
+	max-width: 680px;
+	margin: 30px auto 0;
 }
 
 /* White text in dark-background sections */
