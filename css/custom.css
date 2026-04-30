@@ -710,7 +710,7 @@ header.main-header .header-sticky.active{
 	background: var(--secondary-color) url('../images/hero-bg.png') no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
-	padding: 230px 0 0;
+	padding: 80px 0 0;
 }
 
 .hero.hero-video{
@@ -4469,20 +4469,34 @@ header.main-header .header-sticky.active{
 	.navbar-brand img{
 		max-width: 150px;
 	}
+
+	.home-banner img{
+		height: 35vh;
+	}
 }
 
 /************************************/
 /***   Dark Theme Overrides       ***/
 /************************************/
 
-/* Always-dark header */
+/* Always-dark header — in normal flow, not overlapping content */
 header.main-header{
+	position: relative;
+	top: auto;
 	background: #111111;
 	border-bottom-color: rgba(255,255,255,0.1);
+	box-shadow: 0 2px 24px rgba(0,0,0,0.55);
 }
 
 header.main-header .header-sticky.active{
 	border-bottom-color: rgba(255,255,255,0.1);
+	box-shadow: 0 2px 24px rgba(0,0,0,0.55);
+}
+
+/* Home banner fills remaining viewport below header */
+.home-banner img{
+	height: calc(100vh - 83px);
+	max-height: none;
 }
 
 /* White text in dark-background sections */
