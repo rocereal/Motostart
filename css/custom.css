@@ -4060,8 +4060,16 @@ header.main-header .header-sticky.active{
         margin-top: 10px;
 	}
 
+	.banner-hero-section{
+		height: 85vh;
+	}
+
+	.banner-hero-section .home-banner img{
+		object-position: 70% center;
+	}
+
 	.hero{
-		padding-bottom: 70px;
+		padding-bottom: 40px;
 	}
 
 	.hero-body-item{
@@ -4579,9 +4587,36 @@ header.main-header .header-sticky.active{
 	object-fit: contain;
 }
 
-/* Hero section padding & layout improvements */
+/* Banner + Hero overlay wrapper */
+.banner-hero-section{
+	position: relative;
+	height: 100vh;
+}
+.banner-hero-section .home-banner{
+	position: absolute;
+	inset: 0;
+}
+.banner-hero-section .home-banner img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* Hero overlaid on banner */
 .hero{
-	padding: 80px 0 90px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: transparent;
+	padding: 0 0 60px;
+}
+.hero::before{
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, transparent 100%);
+	pointer-events: none;
 }
 .hero .hero-body{
 	justify-content: center;
