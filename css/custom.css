@@ -4734,6 +4734,16 @@ header.main-header .header-sticky.active{
 	object-fit: cover;
 }
 
+@media (min-width: 992px) {
+	.navbar-brand img{
+		max-width: 140px;
+	}
+	.footer-links-box{
+		justify-content: flex-start;
+		gap: 30px 60px;
+	}
+}
+
 /* Blog Single */
 .post-title-header {
 	padding: 60px 0 40px;
