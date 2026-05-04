@@ -2743,7 +2743,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-single-post{
-	padding: 100px 0;
+	padding: 0 0 80px;
 }
 
 .post-single-meta{
@@ -3888,7 +3888,7 @@ header.main-header .header-sticky.active{
     }
 
 	.page-single-post{
-        padding: 50px 0;
+        padding: 0 0 50px;
     }
 
 	.post-single-meta{
