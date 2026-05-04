@@ -4738,6 +4738,17 @@ header.main-header .header-sticky.active{
 	object-fit: cover;
 }
 
+/* Product slider pagination dots — white on dark background */
+.our-products .product-item-slider .product-pagination .swiper-pagination-bullet{
+	background: rgba(255,255,255,0.4);
+}
+.our-products .product-item-slider .product-pagination .swiper-pagination-bullet-active{
+	background: #ffffff;
+}
+.our-products .product-item-slider .product-pagination .swiper-pagination-bullet-active:before{
+	border-color: rgba(255,255,255,0.5);
+}
+
 @media (min-width: 992px) {
 	.navbar-brand img{
 		max-width: 140px;
