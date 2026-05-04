@@ -4500,6 +4500,10 @@ header.main-header .header-sticky.active{
 		max-width: 150px;
 	}
 
+	.footer-logo img{
+		max-width: 120px;
+	}
+
 	.home-banner img{
 		height: 35vh;
 	}
@@ -4738,9 +4742,18 @@ header.main-header .header-sticky.active{
 	.navbar-brand img{
 		max-width: 140px;
 	}
+	.footer-logo img{
+		max-width: 150px;
+	}
 	.footer-links-box{
 		justify-content: flex-start;
 		gap: 30px 60px;
+		flex-wrap: nowrap;
+		align-items: flex-start;
+	}
+	.footer-links.footer-contact-info{
+		width: auto;
+		flex: 1;
 	}
 }
 
