@@ -4782,3 +4782,8 @@ header.main-header .header-sticky.active{
 	}
 }
 
+/* Reset custom cursor */
+*, *::before, *::after { cursor: auto !important; }
+a, button, [role="button"] { cursor: pointer !important; }
+.cb-cursor, .cb-cursor-inner { display: none !important; }
+
